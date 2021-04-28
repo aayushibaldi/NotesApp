@@ -30,6 +30,10 @@ bodyElement.addEventListener('input', (e) => {
     saveNotes(notes)
 })
 
+document.getElementById("home-page").onclick = ()=> {
+    location.href = "index.html";
+};
+
 removeElement.addEventListener('click', (e) => {
     removeNote(note.id)
     saveNotes(notes)

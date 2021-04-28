@@ -108,14 +108,17 @@ a {
     background: #396684;
 }
 
-.button--secondary {
-    background: #888888;
+.button__secondary {
+    background:red;
     border-bottom: 2px solid #717171;
+    margin-left:37rem;
 }
 
-.button--secondary:hover {
-    background: #6E6E6E;
+.button__secondary:hover {
+    background:#e70303;
 }
+
+
 
 /* Note editor */
 
